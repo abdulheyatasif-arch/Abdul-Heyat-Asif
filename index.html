@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Heyat Asif | Portfolio</title>
+
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #2563eb;
+      --light: #f8fafc;
+      --white: #ffffff;
+      --gray: #64748b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--light);
+      color: var(--primary);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--white);
+      padding: 2.5rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: var(--gray);
+      margin-bottom: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--accent);
+      margin: 0 12px;
+      font-weight: 600;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: var(--accent);
+      font-size: 1.8rem;
+    }
+
+    .card {
+      background: var(--white);
+      padding: 1.8rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .skill {
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.6rem 1rem;
+      border-radius: 25px;
+      font-size: 0.9rem;
+    }
+
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.2rem;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .contact-info {
+      text-align: center;
+    }
+
+    .contact-info a {
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: 600;
+      display: inline-block;
+      margin: 0.5rem 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: var(--white);
+      font-size: 0.9rem;
+      color: var(--gray);
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px;
+      }
+
+      .profile-img {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- Make sure this image file is saved in same folder as index.html -->
+    <img src="abdul-profile.jpg" alt="Abdul Heyat Asif" class="profile-img">
+
+    <h1>Abdul Heyat Asif</h1>
+    <p>Floor Manager | Sales & Customer Experience Specialist</p>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="card">
+      <p>
+        Dynamic Sales Executive with proven expertise in driving revenue growth and delivering 
+        exceptional customer experiences in Apple retail environments. Skilled in team leadership, 
+        CRM, sales strategy, and operational management. Known for consistently exceeding targets 
+        while maintaining high service standards and professional integrity.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <div class="skills-list">
+        <span class="skill">Customer Engagement</span>
+        <span class="skill">Sales Execution</span>
+        <span class="skill">CRM</span>
+        <span class="skill">Team Leadership</span>
+        <span class="skill">Cross-Selling</span>
+        <span class="skill">Pipeline Management</span>
+        <span class="skill">Problem Solving</span>
+        <span class="skill">Conflict Resolution</span>
+        <span class="skill">SOP Adherence</span>
+        <span class="skill">Staff Management</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Floor Manager – iTech (Apple Authorised Store), Patna</h3>
+      <p><em>Present</em></p>
+      <ul>
+        <li>Supervising daily floor operations to ensure smooth workflow and efficiency.</li>
+        <li>Managing and training team members to maintain high service standards.</li>
+        <li>Monitoring customer interactions to ensure satisfaction and resolve issues promptly.</li>
+        <li>Coordinating inventory control and process improvements with management.</li>
+        <li>Ensuring compliance with company policies and workplace safety procedures.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Sales Consultant – iDestiny (Apple Premium Store), Patna</h3>
+      <p><em>Jan 2021 – Aug 2024</em></p>
+      <ul>
+        <li>Delivered exceptional customer experiences while driving Apple product sales.</li>
+        <li>Provided tailored product recommendations as a trusted advisor.</li>
+        <li>Consistently met or exceeded sales targets through upselling strategies.</li>
+        <li>Conducted live product demonstrations highlighting ecosystem benefits.</li>
+        <li>Maintained Apple-standard visual merchandising and store presentation.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Retail Sales Growth Initiative</h3>
+        <p>Implemented cross-selling techniques and team coaching strategies that improved overall store revenue performance.</p>
+      </div>
+
+      <div class="card">
+        <h3>Customer Experience Optimization</h3>
+        <p>Enhanced customer engagement processes leading to improved satisfaction and repeat business.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card contact-info">
+      <p><strong>Location:</strong> Patna, Bihar – 800001</p>
+      <p><strong>Phone:</strong> +91 9773953447</p>
+      <p><strong>Email:</strong> <a href="mailto:abdulheyatasif@gmail.com">abdulheyatasif@gmail.com</a></p>
+      <a href="https://linkedin.com/in/abdul-heyat-asif-20a4a7227" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Abdul Heyat Asif. All rights reserved.
+  </footer>
+
+</body>
+</html>
